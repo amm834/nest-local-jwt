@@ -1,0 +1,16 @@
+###
+
+# curl -X POST http://localhost:3000/auth/login -d '{"username": "john", "password": "changeme"}' -H "Content-Type: application/json"
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "amm@gmail.com",
+  "password": "guess"
+}
+
+
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFtbUBnbWFpbC5jb20iLCJzdWIiOjMsImlhdCI6MTY4OTEzNTI1NSwiZXhwIjoxNjg5MTM4ODU1fQ.J14vfGOy4k4y7MhaEU8b7e4d_BNJcHxK0h1mzou69ks"
+}
+
